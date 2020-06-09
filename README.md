@@ -1,7 +1,7 @@
 # OPAL Classification
 
 This component predicts objects of the dcat:theme predicate of dcat:Dataset subjects, based on the dc:description property. The implementation was done using WEKA https://github.com/Waikato/weka-3.8.
-You can run the application with the default values with <br />`mvn clean install` and `mvn exec:java -Dexec.mainClass="tools.Main" -Dexec.args="-c j48 -ngrams 1" -Dexec.cleanupDaemonThreads=false`<br /> 
+You can run the application with the default values with `mvn clean install` and `mvn exec:java -Dexec.mainClass="tools.Main" -Dexec.args="-c j48 -ngrams 1" -Dexec.cleanupDaemonThreads=false`<br /> 
 The result of the evaluation of the cross-validation of the training data and the evaluation of the test data is printed to console.
 
 The following arguments can be provided: <br />
